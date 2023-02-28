@@ -1,2 +1,2 @@
 # Javascript
- apenas javascript (complemento html e css)
+ apenas javascript (complemento das aulas html e css do curso)
