@@ -12,7 +12,7 @@ function somar(x,y){
     return x+y
 }
 
-// aqui é chamada a função 'calcular' recebendo como parâmetro o valor 3,5 e
+// aqui é chamada a função 'calcular' recebendo como parâmetro o valor 3 e 5, e
 // outra função, 'somar', então o resultado mostraria a soma desses 2 valores.
 console.log(calcular(3,5,somar))
 
