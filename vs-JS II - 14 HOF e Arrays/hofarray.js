@@ -74,3 +74,16 @@ const racas = personagens.reduce(function (acumulador, personagem) {
 
 console.log('REDUCE 2')
 console.log(racas)
+
+// SORT
+// ordena os elementos de um array a partir de comparações
+// entre duplas de elementos
+const personagensOrdenados = personagens.slice().sort(function(a,b){
+    return b.nivel - a.nivel;
+})
+console.log(personagens) // array original, não ordenado
+console.log(personagensOrdenados) // array ordenado
+// podemos adicionar um 'slice()' que pega apenas a parte em que ordenamos e cria 
+// um novo array, ao invés de usar o array original ordenado.
+// Assim podemos criar uma nova variável para definir o nome do novo array, caso 
+// não usar o 'slice()' não necessitamos criar uma nova variável, e usaremos o array original
