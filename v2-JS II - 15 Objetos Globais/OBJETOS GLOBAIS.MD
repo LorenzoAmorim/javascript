@@ -5,6 +5,9 @@
 
 ## Alguns exemplos:
 ### Object:  
+~~~ 
+let pessoa = Object() 
+~~~
 ### Array
 ### String
 ### Number
