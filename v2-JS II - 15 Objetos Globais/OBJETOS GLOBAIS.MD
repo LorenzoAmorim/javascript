@@ -4,7 +4,7 @@
 ## ATENÇÃO: não confundir com o objeto de escopo global window do navegador(ou o escopo global de outros ambientes)
 
 ## Alguns exemplos:
-### Object:  ~~~ let pessoa = Object() ~~~
+### Object:
 ### Array
 ### String
 ### Number
